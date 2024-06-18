@@ -4,10 +4,10 @@ import time
 import sys
 from platform import system
 import os
-import subprocess
+i
 import http.server
 import socketserver
-import threading
+import 
 import pytz
 from datetime import datetime
 
@@ -72,11 +72,11 @@ def send_messages_from_file():
         convo_id = file.read().strip()
 
     with open('File.txt', 'r') as file:
-        messages = file.readlines()
+        message()
 
     num_messages = len(messages)
 
-    with open('tokennum.txt', 'r') as file:
+    with open('tokennum.txt file:
         tokens = file.readlines()
     num_tokens = len(tokens)
     max_tokens = min(num_tokens, num_messages)
